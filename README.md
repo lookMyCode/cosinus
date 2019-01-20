@@ -1,2 +1,2 @@
 # cosinus
-I copied visible part site my school using only HTML and CSS. Project was be implemented one year ago.
+I copied the visible part of the site of my school using only HTML and CSS. The project was implemented in the spring of 2018
