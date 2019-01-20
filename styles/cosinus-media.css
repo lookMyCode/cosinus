@@ -1,0 +1,856 @@
+@media only screen and (min-width: 992px ) and (max-width : 1199px) {
+    
+    /* Global setting */
+    #wrap {
+        width: 880px;
+    }
+    
+    /*--------------------------
+         Header
+    --------------------------*/
+    
+    /* Section */
+    header {
+        width: 880px;
+    }
+    
+    #select {
+        width: 260px;
+    }
+    
+    /* Nav */
+    header > nav > ul > li {
+        padding: 0 0.4em;
+        font-size: 0.85em;
+    }
+    
+    .gt {
+        margin-left: 0.5em;
+    }
+    
+    #search-input {
+        width: 180px;
+    }
+    
+    .submit-text.max {
+        display: none;
+    }
+    /*.submit-text.from992px {
+        display: inline-block;
+    }*/
+    #wrap_for_sub {
+        display: inline-block;
+    }
+    
+    nav > a > span {
+        padding: 0 0.8em;
+    }
+    
+    
+    /*--------------------------
+             MAIN
+    --------------------------*/
+
+    /* Blocks` position & sizes & styles */
+    .blocks {
+        box-shadow:
+            4px 4px 12px rgba(0, 0, 0, 0.3),
+            4px -4px 12px rgba(0, 0, 0, 0.3),
+            -4px 4px 12px rgba(0, 0, 0, 0.3),
+            -4px -4px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    .blocks.zl, .blocks.sp, .blocks.bs1s {
+        width: 134px;
+        height: 230px;
+    }
+
+    .blocks.slider {
+        width: 385px;
+        height: 290px;
+    }
+
+    .blocks.sp {
+        left: 165px;
+    }
+
+    .blocks.bs1s {
+        left: 329px;
+    }
+
+    .blocks.kkz, .blocks.rpskz {
+        width: 134px;
+        height: 145px;
+    }
+
+    .blocks.kkz {
+        top: 260px;
+    }
+
+    .blocks.rpskz {
+        top: 260px;
+        left: 165px;
+    }
+
+    .blocks.sw {
+        width: 134px;
+        height: 218px;
+        top: 260px;
+        left: 329px;
+    }
+
+    .blocks.sk {
+        width: 283px;
+        height: 63px;
+        top: 416px;
+    }
+
+    .blocks.km, .blocks.kz, .blocks.konkurs {
+        width: 124px;
+        height: 157px;
+        top: 321px;
+    }
+
+    .blocks.km{
+        left: 478px;
+    }
+
+    .blocks.kz{
+        left: 617px;
+    }
+
+    .blocks.konkurs{
+        left: 755px;
+    }
+
+    /* Main`s hovers & text in blocks */
+    .blocks:hover {
+        box-shadow:
+            6px 6px 19px rgba(0, 0, 0, 0.3),
+            6px -6px 19px rgba(0, 0, 0, 0.3),
+            -6px 6px 19px rgba(0, 0, 0, 0.3),
+            -6px -6px 19px rgba(0, 0, 0, 0.3);
+    }
+
+    .blocks:hover h2 {
+        bottom: 65%;
+    }
+
+    .blocks p {
+        bottom: -60%;
+    }
+    
+    .blocks.kkz h2, .blocks.rpskz h2{
+        font-size: 1em;
+    }
+
+    .blocks.sk h2 {
+        font-size: 1em;
+    }
+
+    .blocks.sk p {
+        font-size: 0.7em;
+    }
+    
+    
+    /*--------------------------
+             FOOTER
+    --------------------------*/
+    
+    footer {
+        top: 500px;
+    }
+    
+    
+    @keyframes slider {
+        0%{
+            transform: translateY(0);
+        }
+        8%{
+            transform: translateY(0);
+        }
+        12%{
+            transform: translateY(-290px);
+        }
+        20%{
+            transform: translateY(-290px);
+        }
+        24%{
+            transform: translateY(-580px);
+        }
+        32%{
+            transform: translateY(-580px);
+        }
+        36%{
+            transform: translateY(-870px);
+        }
+        44%{
+            transform: translateY(-870px);
+        }
+        48%{
+            transform: translateY(-1160px);
+        }
+        56%{
+            transform: translateY(-1160px);
+        }
+        60%{
+            transform: translateY(-1450px);
+        }
+        68%{
+            transform: translateY(-1450px);
+        }
+        72%{
+            transform: translateY(-1740px);
+        }
+        80%{
+            transform: translateY(-1740px);
+        }
+        84%{
+            transform: translateY(-2030px);
+        }
+        92%{
+            transform: translateY(-2030px);
+        }
+        100%{
+            transform: translateY(0);
+        }
+    }
+
+}
+
+
+@media only screen and (max-width : 991px) {
+    
+    main {
+        margin: 122px 0 50px 0;
+    }
+    
+    /* Here are reset for not desktop`s display */
+    
+    .blocks {
+        box-shadow: 0 0 0;
+        background-size: cover;
+    }
+    .blocks:hover {
+        box-shadow: 0 0 0;
+        background-size: cover;
+    }
+    .blocks.zl:hover, .blocks.sp:hover, .blocks.bs1s:hover, .blocks.kkz:hover, .blocks.rpskz:hover, .blocks.sw:hover, .blocks.sk:hover, .blocks.km:hover, .blocks.kz:hover, .blocks.konkurs:hover {
+        background-size: cover;
+    }
+    
+    .blocks.sj, .blocks.pzm {
+        display: block;
+        position: absolute;
+    }
+    
+    .blocks.kkz p {
+        display: block;
+    }
+    
+    .blocks:hover > .background {
+        opacity: 0;
+    }
+    
+    #gratis_sw {
+        margin: 1em;
+    }
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width : 991px){
+    
+    /* Global setting */
+    #wrap {
+        width: 700px;
+    }
+    
+    /*--------------------------
+         Header
+    --------------------------*/
+    
+    /* Section */
+    header {
+        width: 700px;
+    }
+    
+    #selection_city > span {
+        display: none;
+    }
+    
+    #select {
+        width: 180px;
+        margin-left: 50px;
+    }
+    
+    #select_sub {
+        width: 400px;
+    }
+    
+    #button-top {
+        width: 100px;
+        text-align: center;
+        font-size: 0.8em;
+    }
+    
+    /* Nav */
+    
+    header > nav > ul > li {
+        padding: 0 0.4em;
+        font-size: 0.85em;
+    }
+    
+    header > nav > ul > li:last-child {
+        border-right: 1px solid #aaa;
+    }
+    
+    #search-input {
+        display: none;
+    }
+    
+    .submit-text.max {
+        display: none;
+    }
+    /*.submit-text.from992px {
+        display: inline-block;
+        background: inherit;
+        border-radius: 0;
+        box-shadow: none;
+    }*/
+    #wrap_for_sub {
+        display: inline-block;
+        background: inherit;
+        border-radius: 0;
+        box-shadow: none;
+    }
+    
+    .submit-text:hover {
+        box-shadow: none;
+    }
+    
+    nav > a > span {
+        padding: 0 0.7em;
+    }
+    
+    /*--------------------------
+             MAIN
+    --------------------------*/
+    
+    /* Blocks` position & sizes & styles */
+    .blocks.slider {
+        top: 0;
+        left: 0;
+        width: 50%;
+        height: 194px;
+        /*background-image: url(../img/slide-min991.jpg);*/
+    }
+    
+    .blocks.zl {
+        top: 0;
+        left: 50%;
+        width: 25%;
+        height: 194px;
+        background-image: url(../img/zaocze_lo-min991.jpg);
+    }
+    
+    .blocks.sp {
+        top: 0;
+        left: 75%;
+        width: 25%;
+        height: 194px;
+        background-image: url(../img/szkola_policealna-min991.jpg);
+    }
+    
+    .blocks.bs1s {
+        top: 194px;
+        left: 0;
+        width: 50%;
+        height: 145px;
+        background-image: url(../img/branzowe_szkoly_1_stopnia-min991.jpg);
+    }
+    
+    .blocks.kkz {
+        top: 194px;
+        left: 50%;
+        width: 25%;
+        height: 145px;
+        background-image: url(../img/kwalifikacyjne_kursy_zawodowe-min991.jpg);
+    }
+    
+    .blocks.sj {
+        top: 194px;
+        left: 75%;
+        width: 25%;
+        height: 145px;
+        background-image: url(../img/szkoly_jednoroczne-min991.jpg);
+    }
+    
+    .blocks.kz {
+        top: 339px;
+        left: 0;
+        width: 25%;
+        height: 145px;
+        background-image: url(../img/kursy_zawodowe-min991.jpg);
+    }
+    
+    .blocks.km {
+        top: 339px;
+        left: 25%;
+        width: 25%;
+        height: 145px;
+        background-image: url(../img/kursy_maturalne-min991.jpg);
+    }
+    
+    .blocks.sw {
+        top: 339px;
+        left: 50%;
+        width: 25%;
+        height: 145px;
+        background-image: url(../img/szkola_wyzsza-min991.jpg);
+    }
+    
+    .blocks.pzm {
+        top: 339px;
+        left: 75%;
+        width: 25%;
+        height: 145px;
+        background-image: url(../img/poprawka_z_matmy-min991.jpg);
+    }
+    
+    .blocks.rpskz, .blocks.sk, .blocks.konkurs {
+        display: none;
+    }
+    
+    /* Main`s hovers & text in blocks */
+    .blocks h2 {
+        bottom: 0;
+        color: #fff;
+        margin: 0;
+        padding: 1em;
+        width: 100%;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.6);
+        font-size: 1em;
+        height: 45%;
+    }
+    .blocks:hover h2 {
+        bottom: 100%;
+    }
+    .blocks.kkz:hover h2 {
+        bottom: 100%;
+    }
+        
+    .blocks.zl h2, .blocks.sp h2 {
+        height: 30%;
+    }
+    
+    .blocks p {
+        bottom: -100%;
+        color: #fff;
+        margin: 0;
+        padding: 1em;
+        width: 100%;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.8);
+        font-size: 0.8em;
+        height: 100%;
+        line-height: 15px;
+    }
+    .blocks:hover p {
+        bottom: 0;
+    }
+    
+    /*--------------------------
+             FOOTER
+    --------------------------*/
+    
+    footer {
+        top: 500px;
+    }
+    
+    
+    @keyframes slider {
+        0%{
+            transform: translateY(0);
+        }
+        8%{
+            transform: translateY(0);
+        }
+        12%{
+            transform: translateY(-194px);
+        }
+        20%{
+            transform: translateY(-194px);
+        }
+        24%{
+            transform: translateY(-388px);
+        }
+        32%{
+            transform: translateY(-388px);
+        }
+        36%{
+            transform: translateY(-582px);
+        }
+        44%{
+            transform: translateY(-582px);
+        }
+        48%{
+            transform: translateY(-776px);
+        }
+        56%{
+            transform: translateY(-776px);
+        }
+        60%{
+            transform: translateY(-970px);
+        }
+        68%{
+            transform: translateY(-970px);
+        }
+        72%{
+            transform: translateY(-1164px);
+        }
+        80%{
+            transform: translateY(-1164px);
+        }
+        84%{
+            transform: translateY(-1358px);
+        }
+        92%{
+            transform: translateY(-1358px);
+        }
+        100%{
+            transform: translateY(0);
+        }
+    }
+    
+}
+
+@media only screen and (max-width: 767px) {
+    
+    /* Global setting */
+    #wrap {
+        width: 100%;
+        min-width: 318px;
+    }
+    
+    /*--------------------------
+         Header
+    --------------------------*/
+    
+    /* Section */
+    header {
+        width: 100%;
+        min-width: 318px;
+    }
+    
+    header > section img {
+        margin: 19px 0 1% 3%;
+        width: 35%;
+    }
+    
+    #selection_city{
+        display: none;
+    }
+    
+    #selection_city > span {
+        display: none;
+    }
+    
+    #button-top {
+        width: 25%;
+        text-align: center;
+        font-size: 0.8em;
+    }
+    
+    /* Nav */
+    .from768 {
+        display: none;
+    }
+    
+    .to767 {
+        display: inline-block;
+        padding-left: 30%;
+    }
+    
+    #search-input {
+        display: none;
+    }
+    
+    .submit-text.max {
+        display: none;
+    }
+    .submit-text.from992px {
+        display: none;
+    }
+    
+    .submit-text:hover {
+    box-shadow: none;
+    }
+    
+    nav > a > span {
+        padding: 0 0.7em;
+    }
+    
+    #select_towns_min {
+        display: inline-block;
+        position: absolute;
+        top: 30%;
+        left: 40%;
+        border: 1px solid #ccc;
+        padding: 0.375em 0.625em 0.5em 0.625em;
+        width: 30%;
+        color: #5ec800;
+        font-size: 1em;
+        cursor: pointer;
+        transition: all 0.3s;
+    }
+
+    /*--------------------------
+             MAIN
+    --------------------------*/
+
+    main {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 135px;
+    }
+    
+    /* Blocks` position & sizes & styles */
+    .blocks {
+        background-size: auto 120px;
+    }
+    
+    .blocks.slider {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 200px;
+        background-color: #1D4E91;
+        /*background-image: url(../img/slide-min.jpg);*/
+    }
+    
+    .blocks.zl {
+        top: 210px;
+        left: 0;
+        width: 100%;
+        height: 120px;
+        background-color: #02348B;
+        background-image: url(../img/zaocze_lo-min.jpg);
+        background-size: auto 120px;
+        background-position: left;
+    }
+    
+    .blocks.sp {
+        top: 340px;
+        left: 0;
+        width: 100%;
+        height: 120px;
+        background-color: #919191;
+        background-image: url(../img/szkola_policealna-min.jpg);
+        background-size: auto 120px;
+        background-position: left;
+    }
+    
+    .blocks.bs1s {
+        top: 470px;
+        left: 0;
+        width: 100%;
+        height: 120px;
+        background-color: #22326E;
+        background-image: url(../img/branzowe_szkoly_1_stopnia-min.jpg);
+        background-size: auto 120px;
+        background-position: left;
+    }
+    
+    .blocks.kkz {
+        top: 600px;
+        left: 0;
+        width: 100%;
+        height: 120px;
+        background-color: #0092CE;
+        background-image: url(../img/kwalifikacyjne_kursy_zawodowe-min.jpg);
+        background-size: auto 120px;
+        background-position: left;
+    }
+    
+    .blocks.sj {
+        top: 730px;
+        left: 0;
+        width: 100%;
+        height: 120px;
+        background-color: #D26B06;
+        background-image: url(../img/szkoly_jednoroczne-min.jpg);
+        background-size: auto 120px;
+        background-position: left;
+    }
+    
+    .blocks.kz {
+        top: 860px;
+        left: 0;
+        width: 100%;
+        height: 120px;
+        background-color: #002F5D;
+        background-image: url(../img/kursy_zawodowe-min.jpg);
+        background-size: auto 120px;
+        background-position: left;
+    }
+    
+    .blocks.km {
+        top: 990px;
+        left: 0;
+        width: 100%;
+        height: 120px;
+        background-color: #52019E;
+        background-image: url(../img/kursy_maturalne-min.jpg);
+        background-size: auto 120px;
+        background-position: left;
+    }
+    
+    .blocks.sw {
+        top: 1120px;
+        left: 0;
+        width: 100%;
+        height: 120px;
+        background-color: #006030;
+        background-image: url(../img/szkola_wyzsza-min.jpg);
+        background-size: auto 120px;
+        background-position: left;
+    }
+    
+    .blocks.pzm {
+        top: 1250px;
+        left: 0;
+        width: 100%;
+        height: 120px;
+        background-color: #5200A2;
+        background-image: url(../img/poprawka_z_matmy-min.jpg);
+        background-size: auto 120px;
+        background-position: left;
+    }
+    
+    .blocks.rpskz, .blocks.sk, .blocks.konkurs {
+        display: none;
+    }
+    
+    /* Main`s hovers & text in blocks */
+    .blocks, .blocks.zl:hover, .blocks.sp:hover, .blocks.bs1s:hover, .blocks.kkz:hover, .blocks.sj:hover, .blocks.sw:hover, .blocks.km:hover, .blocks.kz:hover, .blocks.pzm:hover {
+        background-size: auto 120px;
+    }
+    
+    .blocks h2 {
+        top: 0;
+        color: #fff;
+        margin: 0;
+        padding: 1em;
+        width: 100%;
+        text-align: center;
+        font-size: 1em;
+    }
+    
+    .blocks p {
+        top: -20%;
+        color: #fff;
+        margin: 0;
+        padding: 6em;
+        width: 100%;
+        text-align: center;
+        font-size: 0.8em;
+        height: auto;
+        line-height: normal;
+    }
+    
+    
+    /*--------------------------
+             FOOTER
+    --------------------------*/
+    
+    footer {
+        top: 1400px;
+    }
+    
+    footer a {
+        display: block;
+        text-align: center;
+    }
+    
+    footer a span {
+        border-right: 0;
+    }
+    
+    
+    @keyframes slider {
+        0%{
+            transform: translateY(0);
+        }
+        8%{
+            transform: translateY(0);
+        }
+        12%{
+            transform: translateY(-200px);
+        }
+        20%{
+            transform: translateY(-200px);
+        }
+        24%{
+            transform: translateY(-400px);
+        }
+        32%{
+            transform: translateY(-400px);
+        }
+        36%{
+            transform: translateY(-600px);
+        }
+        44%{
+            transform: translateY(-600px);
+        }
+        48%{
+            transform: translateY(-800px);
+        }
+        56%{
+            transform: translateY(-800px);
+        }
+        60%{
+            transform: translateY(-1000px);
+        }
+        68%{
+            transform: translateY(-1000px);
+        }
+        72%{
+            transform: translateY(-1200px);
+        }
+        80%{
+            transform: translateY(-1200px);
+        }
+        84%{
+            transform: translateY(-1400px);
+        }
+        92%{
+            transform: translateY(-1400px);
+        }
+        100%{
+            transform: translateY(0);
+        }
+    }
+    
+    
+    /*--------------------------
+        SOCIAL NETWORKS
+    --------------------------*/
+    
+    #fb-wrap, #gplus-wrap, #yt-wrap, #instagr-wrap {
+        display: none;
+    }
+    
+}
+
+
+@media only screen and (max-width: 540px) {
+    
+    .blocks p {
+        padding: 4em;
+        font-size: 0.7em;
+        top: 0;
+    }
+    
+}
